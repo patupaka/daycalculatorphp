@@ -1,0 +1,58 @@
+header{
+    color: rgb(218, 216, 216);
+    background: rgb(182, 51, 51);
+    width: 100%;
+    min-height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    //sticky header
+    position: fixed; 
+    top: 0;
+    left: 0;
+
+    &:hover{
+        background: rgb(255, 255, 255);
+        color:rgb(0, 0, 0);
+    }
+}
+body {
+    background: #121212;
+    color: aliceblue;
+    margin-top: 4em; 
+    padding: 2em;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+p {
+    font-size: 2em;
+}
+
+.rainbow {
+    background: linear-gradient(to right, pink, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button{
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 2%;
+    padding: 1em;
+    font-size: 1em;
+    cursor: pointer;
+    border-color: white;
+    color: white;
+    &:hover{
+        background-color: #04AA6D;
+        color: white;
+    }
+}
+
+input[type="date"] {
+    padding: 1em;
+    font-size: 1em;
+}
